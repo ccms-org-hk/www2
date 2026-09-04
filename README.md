@@ -97,3 +97,23 @@ You can now use MUI components anywhere in your pages. Update your app/page.tsx 
 
 In the Next.js App Router, page.tsx is a reserved file name. Next.js relies on strict file-system routing, meaning a route only becomes publicly accessible if a file is explicitly named exactly page.tsx (or page.js/page.jsx).
 
+# Install Package: gh-pages
+
+# Install Git
+
+```
+git --version
+git config --global user.name "xxxxxxx"
+git config --global user.email "xxxxxxx@gmail.com"
+```
+
+# Commands for Dev "http://localhost:3000"
+```
+npm run dev
+```
+
+# Commands for Deploy
+```
+npm run build
+npm run deploy
+```
