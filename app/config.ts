@@ -1,0 +1,51 @@
+export const MENU_ITEMS = [
+  { title: '聚會時間', url: '/#gathering' },
+  { title: '崇拜講道', url: '/#sermon' },
+  { title: '行事曆', url: '/#plan' },
+  { title: '下載', url: '/#download' },
+  { title: '聯絡我們', url: '/#contact' },
+];
+
+// Year 2026: A=全體 G=小組 I=兒童/少年 L=堂委/領袖 C=個人 F=社區/親子 S=其他 
+// this sequence will affect the sequence of Legend items
+export const LEGENDS = [
+  { type:'A', name: '全體', color: '#9933ff' },
+  { type:'G', name: '小組', color: '#3D9DD9' },
+  { type:'I', name: '兒童/少年', color: '#D9A98B' },
+  { type:'C', name: '個人', color: '#F63A2B' },
+  { type:'F', name: '社區/親子', color: '#ff99ff' },
+  { type:'L', name: '堂委/領袖', color: '#666666' },
+  { type:'S' ,name: '其他', color: '#33cc33' },
+];
+
+// Year 2025: A=全體 G=小組 I=兒童/少年 C=個人 S=同工 F=堂委/司事
+// export const LEGENDS = [
+//   { type:'A', name: '全體', color: '#9933ff' },
+//   { type:'G', name: '小組', color: '#3D9DD9' },
+//   { type:'I', name: '兒童/少年', color: '#D9A98B' },
+//   // { type:'Y', name: '年輕人', color: '#33cc33' },
+//   { type:'C', name: '個人', color: '#F63A2B' },
+//   { type:'F', name: '堂委/司事', color: '#007F66' },
+//   { type:'S' ,name: '同工', color: '#33cc33' },
+// ];
+
+// Year 2024:
+// export const LEGENDS = [
+//   { type:'A', name: '全體', color: '#9933ff' },
+//   { type:'G', name: '小組會眾', color: '#3D9DD9' },
+//   { type:'I', name: '兒童/少年', color: '#D9A98B' },
+//   { type:'Y', name: '年輕人', color: '#33cc33' },
+//   { type:'C', name: '社區', color: '#F63A2B' },
+//   { type:'F', name: '家庭', color: '#ff99ff' },
+//   { type:'S' ,name: '個人/同工', color: '#007F66' },
+// ];
+
+// Year 2023:
+// export const LEGENDS = [
+//   { type:'A', name: '全體', color: '#9933ff' },
+//   { type:'I', name: '自由/有興趣', color: '#D9A98B' },
+//   { type:'Y', name: '年輕人', color: '#33cc33' },
+//   { type:'C', name: '兒童/婦女', color: '#F63A2B' },
+//   { type:'F', name: '家庭', color: '#ff99ff' },
+//   { type:'S' ,name: '個人/同工', color: '#007F66' },
+// ];
