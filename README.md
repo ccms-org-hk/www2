@@ -118,3 +118,29 @@ git config --global user.email "xxxxxxx@gmail.com"
 npm run build
 npm run deploy
 ```
+
+### 6. Environment Setup in macOS
+
+Get Node.js v24.20.0 LTS for macOS using Brew with npm:
+(If you run these commands inside VS Code terminal, you must re-start VS Code afterwards.)
+```
+# Download and install Homebrew (if you don't have)
+curl -o- https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | bash
+
+# Or update your existing brew
+brew update
+
+# Download and install Node.js:
+brew install node@24
+
+# Verify the Node.js version:
+node -v # Should print "v24.20.0".
+
+# Verify npm version:
+npm -v # Should print "11.19.0".
+```
+
+Then, install all necessary packages (if you newly download the source from GitHub) under www2/:
+```
+npm install
+```
