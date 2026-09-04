@@ -143,7 +143,7 @@ function HomeContent() {
 }
 
 export default function Home() {
-  const [route, setRoute] = useState('');
+  const [route, setRoute] = useState<string | null>(null);
 
   useEffect(() => {
     const updateRoute = () => {
@@ -155,6 +155,10 @@ export default function Home() {
     window.addEventListener('hashchange', updateRoute);
     return () => window.removeEventListener('hashchange', updateRoute);
   }, []);
+
+  if (route === null) {
+    return null;
+  }
 
   switch (route) {
     case 'gathering':
