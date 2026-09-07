@@ -77,7 +77,7 @@ export default function Sermon() {
         <main>
           <Banner post={bannerContent} />
 
-          <Grid container spacing={4} sx={{pl:'30px',mt:'30px',}}>
+          <Grid container spacing={4} sx={{mt:'30px',}}>
             <TableContainer component={Paper} sx={{mx:'30px',}}>
               <Table sx={{ minWidth: 400 }} aria-label="customized table">
                 <TableHead>

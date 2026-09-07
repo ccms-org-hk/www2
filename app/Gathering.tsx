@@ -66,13 +66,13 @@ export default function Gathering() {
         <main>
           <Banner post={bannerContent} />
 
-          <Stack direction='row' sx={{px:'30px',}}>
+          <Stack direction='row' sx={{px:'30px', mt:'30px',}}>
             <Typography variant='h4'>
             崇拜
             </Typography>
           </Stack>
 
-          <Grid container spacing={4} sx={{pl:'30px',mt:'30px',}}>
+          <Grid container spacing={4} sx={{mt:'30px',}}>
             <TableContainer component={Paper} sx={{mx:'30px',}}>
               <Table sx={{ minWidth: 400 }} aria-label="customized table">
                 <TableHead>
@@ -106,7 +106,7 @@ export default function Gathering() {
             </Typography>
           </Stack>
 
-          <Grid container spacing={4} sx={{pl:'30px',mt:'30px'}}>
+          <Grid container spacing={4} sx={{mt:'30px'}}>
             <TableContainer component={Paper} sx={{mx:'30px', mb:'60px'}}>
               <Table sx={{ minWidth: 400 }} aria-label="customized table">
                 <TableHead>
