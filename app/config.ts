@@ -15,7 +15,6 @@ export const LEGENDS = [
   { type:'C', name: '個人', color: '#F63A2B' },
   { type:'F', name: '社區/親子', color: '#ff99ff' },
   { type:'L', name: '堂委/領袖', color: '#666666' },
-  { type:'S' ,name: '其他', color: '#33cc33' },
 ];
 
 // Year 2025: A=全體 G=小組 I=兒童/少年 C=個人 S=同工 F=堂委/司事
