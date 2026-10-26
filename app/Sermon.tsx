@@ -46,6 +46,7 @@ function createData(
 }
 
 const rows = [
+  createData("2026-10-25","睇你點揀","朱幼成 牧師","羅 6:12-23"),
   createData("2026-10-18","生命頌 頌生命","吉中嗚 牧師","詩 103:1-22"),
   createData("2026-10-11","Do something new, O'Lord.","黃智輝 牧師","賽 43:18-20"),
   createData("2026-10-02","重塑事奉心","錢國偉 牧師","林後 5:11-21, 6:3-10"),
